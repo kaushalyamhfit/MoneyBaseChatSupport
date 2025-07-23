@@ -46,6 +46,9 @@ GET	/api/chat/status/{chatId}	Check chat session status
 ## Folder Structure
 
 Controllers/         → API endpoints
+
 Services/            → ChatQueueService and PollMonitor
+
 Models/              → Agent, ChatSession, Enums
+
 Configuration/       → Strongly typed settings from appsettings.json
