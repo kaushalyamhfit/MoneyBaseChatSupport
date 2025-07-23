@@ -23,22 +23,24 @@ No integrations with Databases
 
 Method	
 POST	/api/chat/request	Submit a new chat request
+
 POST	/api/chat/poll/{chatId}	Simulate polling from client
+
 GET	/api/chat/status/{chatId}	Check chat session status
 
 ## Configurations
 
 "ChatConfig": {
   "MaxQueueMultiplier": 1.5,
-  "OfficeHoursStart": "09:00",
-  "OfficeHoursEnd": "18:00",
-  "SeniorityEfficiency": {
-    "Junior": 0.4,
-    "MidLevel": 0.6,
-    "Senior": 0.8,
-    "TeamLead": 0.5
-  }
-}
+    "OfficeHoursStart": "09:00",
+    "OfficeHoursEnd": "18:00",
+      "SeniorityEfficiency": {
+          "Junior": 0.4,
+          "MidLevel": 0.6,
+          "Senior": 0.8,
+          "TeamLead": 0.5
+          }
+        }
 
 ## Folder Structure
 
