@@ -22,6 +22,7 @@ No integrations with Databases
 ## API
 
 Method	
+
 POST	/api/chat/request	Submit a new chat request
 
 POST	/api/chat/poll/{chatId}	Simulate polling from client
